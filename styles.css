@@ -173,7 +173,7 @@ body {
     object-fit: cover;
     border: 5px solid var(--primary-color);
     box-shadow: 0 0 40px rgba(37, 99, 235, 0.3);
-    display: none; /* Hidden until user adds their photo */
+    display: block; /* Show the photo */
 }
 
 .photo-placeholder {
@@ -181,7 +181,7 @@ body {
     height: 300px;
     border-radius: 50%;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    display: flex;
+    display: none; /* Hide placeholder when photo is added */
     flex-direction: column;
     justify-content: center;
     align-items: center;
